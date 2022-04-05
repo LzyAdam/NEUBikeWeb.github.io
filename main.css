@@ -1,0 +1,255 @@
+html{
+    background-image: linear-gradient(rgb(9, 168, 70),#209e7e,#29814ffa );
+}
+body{
+    background-image: url(images/3NEU.png);
+    background-position:  bottom  right ;
+    background-repeat: no-repeat;
+    /* background-image: linear-gradient(#fc5e55,#fa4083); */
+    /* background-color: #fc5e55; */
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 1.125rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    width: 1024px;
+    
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+   
+    min-height: 80px;
+    display: flex;
+    /* 自适应 */
+    justify-content: space-between;
+    /* 让字体到另一边 */
+    align-items: center;
+    /* 居中 */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    /* 画条线 也可以用 《hr》 */
+}  
+main{
+   
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: flex-start;  */
+}
+.cards{
+    
+   text-align: center;
+    display: flex;
+    /* 这个是让他并排的 */
+    justify-content: space-between
+    /* 这个是让他自适应中间间隔的 */
+    
+}
+.card1{
+    background-image: url(images/2.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 200px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgb(51, 40, 40);
+     /* 加阴影 */
+
+}
+.card2{
+    background-image: url(images/3.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 200px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgb(40, 51, 46);
+     /* 加阴影 */
+}
+.card3{
+    background-image: url(images/4.png);
+    background-size: cover;
+    /* 自适应图片大小到区域大小 */
+    background-position: bottom;
+    min-height: 200px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgb(40, 51, 43);
+     /* 加阴影 */
+}
+.card1,.card2,.card3{
+    padding: 20px 30px 20px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;/* 圆角矩形 */
+}
+.herobox1{
+    flex:2;
+    /* 页面分2份共三份 */
+    padding-right: 150px;
+    padding-bottom: 30px;
+   
+}
+.herobox2{
+    flex: 1;
+    display: flex;
+    /* 页面分一份 共三份*/
+    padding-bottom: 30px;
+    
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+p{
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+h2{
+    font-size: 2.25rem;
+    margin-bottom: 0.5rem;
+    margin-top: 20px;
+}
+.cards p{
+    font-size: 0.85rem;
+    line-height: 1.25;
+    margin-top: 20px;
+}
+
+i{
+    font-size: 100px;
+    padding-top: 40px;
+}
+
+.cards a {
+    color: rgba(211, 219, 215, 0.829);
+    text-decoration: none;
+}
+
+a.mybutton{
+    background-color: rgba(227, 233, 232, 0.835);
+    color: #0d1410;
+    font-family: 'Merriweather', serif;
+    padding: 11px 25px;
+   border-radius: 5px;
+   /* 圆角矩形 */
+    display: inline-block;
+    box-shadow: 2px 3px 5px rgb(51, 40, 40);
+    /* 加阴影 */
+}
+.mybutton:hover{
+    
+    background-color: #09f1bfad;
+    /* 悬停变色 */
+    transition-duration: 2s;
+    /* 悬停时间 */
+}
+.herobox2 img{
+    border-radius: 10px;
+}
+.nav a.mybutton{
+    margin-left: 30px;
+    box-shadow: 0px 0px 0px rgb(51, 40, 40);
+}
+.navbutton:hover{
+    background-color: #0fe9bab0;
+    /* 悬停变色 */
+    transition-duration: 2s;
+    /* 悬停时间 */
+}
+.navbutton{
+    /* border-style: solid;
+    border-width: 1px;
+    border-radius: 2px; */
+    border:solid rgb(209, 218, 214);
+    padding: 11px 25px ;
+    font-family: 'Merriweather', serif;
+    display: inline-block;
+    /* 这里不能display flex 因为在block里 */
+    position: relative;
+}
+a.navbutton{
+    color: rgb(203, 214, 212);
+    text-decoration: none;
+}
+.testmonials{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+    }
+.tbox{
+    width:40%;
+    padding: 50px;
+    border: 1px solid;
+    box-sizing: border-box;
+    margin-top: 30px;
+   
+}
+.herobox1 :first-child{
+    color: rgb(230, 235, 233);
+}
+.dropdown{
+    display: none;
+    position:absolute;
+    z-index: 1px;
+    padding-top: 20px;
+    text-align: center;
+}
+.navbutton:hover .dropdown{
+    display: block;
+   
+    
+    
+}
+.dropdown .navbutton {
+    width: 150px;
+   background-color: rgba(255, 255, 255, 0.514);
+}
+.dropdown .navbutton a{
+    color: #0d1410;
+}
+.dropdown .navbutton:hover a{
+    color: #1aa570;
+    transition-duration: 0.1s;
+}
+.main2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.inputwrapper{
+    margin-bottom: 20px;
+}
+/* input[type=text]{
+    text-align: center;
+    padding: 12px 20px;
+}
+input[type=Email]{
+    text-align: center;
+    padding: 12px 20px;
+} */
+input[type=text], input[type=Email],textarea{
+    padding: 12px 20px;
+    /* px之间不能打逗号 */
+    /* text-align: center; */
+    font-family:'Merriweather', serif;
+    font-size: 1rem;
+    
+}
+/* 另起一行 */
+.label1{
+    display: block;
+}
+input[type=radio]{
+    margin-right: 10px;
+}
+.marginright{
+    margin-right: 20px;
+}
+

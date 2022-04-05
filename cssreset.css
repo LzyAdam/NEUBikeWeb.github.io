@@ -1,0 +1,50 @@
+/* .container{
+    width: 1024px;
+    background-color: rgb(38, 66, 9);
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: rgb(41, 109, 63);
+    min-height: 100px;
+}
+main{
+    background-color: rgb(5, 185, 14);
+    min-height: 300px;
+    display: flex;
+}
+.cards{
+    background-color: rgb(11, 168, 108);
+    min-height: 300px;
+    display: flex;
+    /* 这个是让他并排的 */
+    /* justify-content: space-between */
+    /* 这个是让他自适应中间间隔的 */
+/* } */
+/* .card1{
+    background-color: rgb(61, 12, 175);
+    min-height: 300px;
+    width: 30%;
+
+} */
+/* .card2{
+    background-color: rgb(161, 12, 175);
+    min-height: 300px;
+    width: 30%;
+} */
+/* .card3{
+    background-color: rgb(175, 12, 121);
+    min-height: 300px;
+    width: 30%;
+}
+.herobox1{
+    flex:2;
+    /* 页面分2份共三份 */
+    /* background-color: aquamarine; */
+/* }
+.herobox2{
+    flex: 1;
+    /* 页面分一份 共三份*/
+    /* background-color: aqua; */
+/* }  */ 

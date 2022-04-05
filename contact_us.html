@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEU Cycles-Contact Us</title>
+    <!-- 搜索结果描述 -->
+    <meta name="description" content="Contact details for NEU BIKE">
+    <!-- this is cssreset -->
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/793d2ae410.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="images/logoNEU111.png" alt="logo"></a>
+            </div>
+            <!-- 导航栏下拉菜单 -->
+            <div class="nav">
+                <!-- 导航栏1_bookonline -->
+                <div class="navbutton">
+                    <a href="#" >Book Online</a>
+                    <div class="dropdown">
+                     <!-- 导航栏下拉菜单1_ -->
+                     <div class="navbutton">
+                        <a href="#" >Onsite Service</a>
+                    </div>
+
+                    <!-- 导航栏下拉菜单2_ -->
+                    <div class="navbutton">
+                        <a href="#" >Parts Delivery</a>
+                    </div>
+
+                    <!-- 导航栏下拉菜单3_ -->
+                    <div class="navbutton">
+                        <a href="#" >Request</a>
+                    </div>
+                    </div>
+
+
+
+
+
+                </div>
+                <!-- 导航栏2_about -->
+                <div class="navbutton">
+                    <a href="#" >About</a>
+                </div>
+                <!-- 导航栏3_contact -->
+                <div class="navbutton">
+                    <a href="contact_us.html" >Contact</a>
+                </div>
+            </div>
+        </header>
+        <!-- main2 -->
+
+        <div class="main2">
+
+            <h1>Contact US</h1>
+
+            <p>Please do not hesitate to reach us</p>
+
+            <form action="mail.php" method="post">
+                <div class="inputwrapper">
+                    <label for="Name" class="label1">Name</label>
+                    <input type="text" name="Name" id="Name" placeholder="First Name">
+                </div>
+                <div class="inputwrapper">
+                    <label for="Email" class="label1">Email</label >
+                    <input type="Email" name="Email" id="Email" placeholder="dan@sample.com">
+                </div>
+                <div class="inputwrapper">
+                    <textarea name="message" id="message" cols="80" rows="10" placeholder="Let us know what you think"></textarea>
+                </div>
+                <!-- 我已阅读 勾选框 -->
+                <div class="inputwrapper">
+                    
+                    <input type="checkbox" name="email-sub" id="email-sub" value="yes-sign-me-up" checked>
+                    <label for="email-sub">Sign Up for Email Newsletter</label>
+
+                </div>
+                <!-- 单选圆点 -->
+                <div class="inputwrapper">
+                    <p>How would you like to be contacted?</p>
+                    <input type="radio" name="contact-preference" id="Phone" value="Phone">
+                    <label for="contact-preference" class="marginright">Phone</label>
+                    <input type="radio" name="contact-preference" id="E-mail" value="E-mail">
+                    <label for="contact-preference">Email</label>
+                    
+                    
+                   
+
+
+
+                </div>
+                <!-- 下拉菜单选项及年月日 -->
+                <div class="inputwrapper">
+                    <!-- 下拉菜单选项 -->
+                 <select name="county" id="county">
+                    <option value="Not-chosen">Choose County</option>
+                     <option value="Boston">Boston</option>
+                     <option value="Malden">Malden</option>
+                     <option value="Cambridge">Cambridge</option>
+                     <input type="date" name="" id="">
+                     <input type="color" name="" id="">
+                     <!-- <input type="datetime" name="" id=""> -->
+                 </select>   
+
+
+
+                </div>
+                <div class="inputwrapper">
+                <input type="submit" value="Send">
+                </div>
+                
+
+                
+
+
+
+
+
+
+            </form>
+
+
+        </div>
+
+        <!-- 三张图 -->
+        <div class="cards">
+
+            <div class="card1">
+                <a href="https://www.w3schools.com/css/default.asp">
+                    <i class="fa-solid fa-bicycle"></i>
+                    <h2>Book Online</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium veritatis rem dolor error
+                        dolorem cupiditate!</p>
+                </a>
+            </div>
+
+            <div class="card2">
+                <a href="http://www.google.com">
+                    <i class="fa-solid fa-gear"></i>
+                    <h2>Service Type</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium veritatis rem dolor error
+                        dolorem cupiditate!</p>
+                </a>
+            </div>
+            <div class="card3">
+                <a href="http://www.google.com" class="blank">
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>Call for Help</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium veritatis rem dolor error
+                        dolorem cupiditate!</p>
+                </a>
+            </div>
+        </div>
+        <div class="testmonials">
+            <!-- <div class="tbox">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia eos similique doloremque delectus
+                    ipsa laudantium tenetur earum amet, magni distinctio?</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="tbox">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia eos similique doloremque delectus
+                    ipsa laudantium tenetur earum amet, magni distinctio?</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="tbox">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia eos similique doloremque delectus
+                    ipsa laudantium tenetur earum amet, magni distinctio?</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="tbox">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia eos similique doloremque delectus
+                    ipsa laudantium tenetur earum amet, magni distinctio?</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div> -->
+
+
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
